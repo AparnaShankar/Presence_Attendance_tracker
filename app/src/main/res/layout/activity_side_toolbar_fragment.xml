@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/side_toolbar_mainlayout">
+
+    <RelativeLayout style="@style/side_toolbar_RL">
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:id="@+id/statistics"
+            style="@style/side_toolbar_ripple">
+
+            <ImageButton
+                style="@style/side_toolbar_img"
+                android:src="@drawable/ic_equalizer_white_48dp" />
+        </com.balysv.materialripple.MaterialRippleLayout>
+
+        <TextView
+            style="@style/side_toolbar_label"
+            android:text="@string/statistics" />
+
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/side_toolbar_RL">
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:id="@+id/predictor"
+            style="@style/side_toolbar_ripple">
+
+            <ImageButton
+                style="@style/side_toolbar_img"
+                android:src="@drawable/ic_timeline_white_48dp" />
+        </com.balysv.materialripple.MaterialRippleLayout>
+
+        <TextView
+            style="@style/side_toolbar_label"
+            android:text="@string/predictor" />
+
+    </RelativeLayout>
+
+</LinearLayout>

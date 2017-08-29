@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="aparna.appy.android.example.com.prsence.SemEditorActivity">
+
+        <LinearLayout style="@style/LL1_form">
+
+            <TextView
+                style="@style/subject_text"
+                android:text="@string/sub_name" />
+
+            <EditText
+                android:id="@+id/subject"
+                style="@style/subject_input"
+                android:layout_marginLeft="@dimen/dimen40" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/LL2_form">
+
+            <TextView
+                style="@style/subject_text"
+                android:text="@string/sub_total" />
+
+            <EditText
+                android:id="@+id/total"
+                style="@style/subject_input"
+                android:layout_marginLeft="@dimen/dimen42"
+                android:inputType="number" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/LL2_form">
+
+            <TextView
+                style="@style/subject_text"
+                android:text="@string/sub_attend" />
+
+            <EditText
+                android:id="@+id/attended"
+                style="@style/subject_input"
+                android:inputType="number" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/LL2_form"
+            android:layout_marginTop="@dimen/dimen48"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/subject_text"
+                android:layout_gravity="center"
+                android:text="@string/sub_criteria" />
+
+            <android.support.v7.widget.AppCompatSeekBar
+                android:id="@+id/seekbar"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen52"
+                android:layout_marginLeft="@dimen/fab_margin" />
+
+            <TextView
+                android:id="@+id/criteriaText"
+                style="@style/editor_criteria" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/background_splash"
+    tools:context="aparna.appy.android.example.com.prsence.SplashScreenActivity">
+
+    <ImageView
+        style="@style/img_splash"
+        android:src="@drawable/ic_school_white_36dp" />
+
+    <TextView
+        style="@style/img_text"
+        android:text="@string/app_name" />
+
+</LinearLayout>

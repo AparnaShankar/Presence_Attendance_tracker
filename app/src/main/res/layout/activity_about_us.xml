@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="aparna.appy.android.example.com.prsence.AboutUs">
+
+    <TextView
+        style="@style/about_description"
+        android:text="@string/About_Us" />
+
+    <TextView
+        style="@style/version"
+        android:text="@string/version" />
+
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/credit"
+        android:text="@string/credits" />
+
+</LinearLayout>

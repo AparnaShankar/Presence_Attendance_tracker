@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="dimen0">0dp</dimen>
+    <dimen name="dimen1">1dp</dimen>
+    <dimen name="dimen2">2dp</dimen>
+    <dimen name="dimen4">4dp</dimen>
+    <dimen name="dimen5">5dp</dimen>
+    <dimen name="dimen8">8dp</dimen>
+    <dimen name="dimen10">10dp</dimen>
+    <dimen name="dimen20">20dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="dimen15">15dp</dimen>
+    <dimen name="dimen24">24dp</dimen>
+    <dimen name="dimen25">25dp</dimen>
+    <dimen name="circle_radius">30dp</dimen>
+    <dimen name="top">32dp</dimen>
+    <dimen name="dimen40">40dp</dimen>
+    <dimen name="dimen48">48dp</dimen>
+    <dimen name="dimen128">128dp</dimen>
+    <dimen name="dimen42">42dp</dimen>
+    <dimen name="dimen43">43dp</dimen>
+    <dimen name="dimen52">52dp</dimen>
+    <dimen name="sub_percent">60dp</dimen>
+    <dimen name="dimen64">64dp</dimen>
+    <dimen name="d90">90dp</dimen>
+    <dimen name="dimen100">100dp</dimen>
+    <dimen name="dimen80">80dp</dimen>
+    <dimen name="d256">256dp</dimen>
+    <dimen name="d275">275dp</dimen>
+    <dimen name="d192">192dp</dimen>
+    <dimen name="dime60">60dp</dimen>
+    <dimen name="d6">6dp</dimen>
+    <dimen name="dimen78">78dp</dimen>
+    <dimen name="dimen39">39dp</dimen>
+
+    <dimen name="font15">15sp</dimen>
+    <dimen name="font16">16sp</dimen>
+    <dimen name="font18">18sp</dimen>
+    <dimen name="font20">20sp</dimen>
+    <dimen name="font25">25sp</dimen>
+    <dimen name="font50">50sp</dimen>
+
+
+</resources>

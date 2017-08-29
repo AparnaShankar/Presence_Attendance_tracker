@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E91E63</color>
+    <color name="colorPrimaryDark">#C2185B</color>
+    <color name="colorPrimaryLight">#F8BBD0</color>
+    <color name="colorAccent">#607D8B</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="background">#EEEEEE</color>
+    <color name="card_background">#ffffff</color>
+    <color name="card_subheading">#A2AAB0</color>
+    <color name="button_background">#455A64</color>
+    <color name="safe">#64DD17</color>
+    <color name="criteria">#8BC34A</color>
+    <color name="danger">#E13A20</color>
+    <color name="spinner_base_color">#44000000</color>
+    <color name="spinner_hint_text_color">#ffffcc</color>
+    <color name="black">#000000</color>
+    <color name="blue">#2196F3</color>
+    <color name="grey_start">#606c88</color>
+    <color name="grey_end">#3f4c6b</color>
+    <color name="circle">#ECEFF1</color>
+    <color name="p_circle">#F5F5F5</color>
+    <color name="splash_end">#880E4F</color>
+    <color name="splash_start">#ff0084</color>
+</resources>

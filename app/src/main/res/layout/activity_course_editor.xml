@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical">
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="aparna.appy.android.example.com.prsence.CourseEditorActivity">
+
+        <LinearLayout style="@style/LL1_form">
+
+            <TextView
+                style="@style/subject_text"
+                android:text="@string/course_name" />
+
+            <EditText
+                android:id="@+id/course"
+                style="@style/subject_input"
+                android:layout_marginLeft="@dimen/dimen43"
+                android:inputType="textCapWords" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/LL2_form">
+
+            <TextView
+                style="@style/subject_text"
+                android:text="@string/total_hours" />
+
+            <EditText
+                android:id="@+id/total_hours"
+                style="@style/subject_input"
+                android:layout_marginLeft="@dimen/dimen52"
+                android:inputType="number" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/LL2_form"
+            android:layout_marginBottom="@dimen/top">
+
+            <TextView
+                style="@style/subject_text"
+                android:text="@string/hours_completed" />
+
+            <EditText
+                android:id="@+id/hours_completed"
+                style="@style/subject_input"
+                android:inputType="number" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

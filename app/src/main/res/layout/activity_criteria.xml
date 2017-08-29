@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/Criteria_textname"
+            android:text="@string/select_criteria" />
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            style="@style/seekbar_screen" />
+
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/seekbar_screen_text" />
+
+        <Button
+            android:id="@+id/next"
+            style="@style/next_button"
+            android:text="@string/next" />
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+

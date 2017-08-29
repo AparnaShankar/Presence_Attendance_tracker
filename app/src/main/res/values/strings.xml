@@ -1,0 +1,132 @@
+<resources>
+    <string name="app_name">Présence</string>
+    <string name="semester">Semester</string>
+    <string name="course">Course</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="editor_insert_subject_successful">Subject Saved</string>
+    <string name="editor_insert_subject_failed">Error with saving the subject!!</string>
+    <string name="editor_insert_subject_failed_name">Error!!\nName field cannot be empty.</string>
+    <string name="editor_insert_subject_failed_greater">Error!!\nAttended Classes cannot be greater than Total Classes.</string>
+    <string name="editor_update_subject_successful">Subject Updated</string>
+    <string name="editor_update_subject_failed">Error with updating the subject!!</string>
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+    <string name="editor_delete_subject_successful">Subject Deleted</string>
+    <string name="editor_delete_subject_failed">Error with deleting the subject!!</string>
+    <string name="delete_dialog_msg">Delete this subject?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="editor_activity_title_new_subject">Add a Subject</string>
+    <string name="editor_activity_title_edit_subject">Edit Subject</string>
+    <string name="editor_insert_course_successful">Course Saved</string>
+    <string name="editor_insert_course_failed">Error with saving the course!!</string>
+    <string name="editor_insert_course_failed_name">Error!!\nName field cannot be empty</string>
+    <string name="editor_insert_course_failed_total">Error!!\nTotal Hours cannot be empty</string>
+    <string name="editor_insert_course_failed_completed">Error!!\nCompleted Hours cannot be greater than Total Hours.</string>
+    <string name="editor_update_course_successful">Course Updated</string>
+    <string name="editor_update_course_failed">Error with updating the course!!</string>
+    <string name="editor_delete_course_successful">Course Deleted</string>
+    <string name="editor_delete_course_failed">Error with deleting the course!!</string>
+    <string name="delete_dialog_msg_course">Delete this course?</string>
+    <string name="delete_all_dialog">Delete all subjects?</string>
+    <string name="delete_all_dialog_course">Delete all courses?</string>
+    <string name="delete_success">All Subjects Deleted</string>
+    <string name="delete_unsuccessful">No subjects to delete!</string>
+    <string name="delete_success_course">All Courses Deleted</string>
+    <string name="delete_unsuccessful_course">No courses to delete!</string>
+    <string name="editor_activity_title_new_course">Add a Course</string>
+    <string name="editor_activity_title_edit_course">Edit Course</string>
+    <string name="attended">Attended</string>
+    <string name="total">Total</string>
+    <string name="track">On track</string>
+    <string name="no_criteria">No criteria set</string>
+    <string name="makeup_1">Attend</string>
+    <string name="makeup_2">classes to makeup</string>
+    <string name="present">Present</string>
+    <string name="absent">Absent</string>
+    <string name="update_subject_total_sucess">Total classes updated</string>
+    <string name="update_subject_total_fail">Failed to update the total classes!</string>
+    <string name="update_subject_attended_sucess">Attended &amp; Total classes updated</string>
+    <string name="update_subject_attended_fail">Failed to update the Attended &amp; Total classes!</string>
+    <string name="statistics">Statistics</string>
+    <string name="pieName">Subject-Wise\nAttendance Comparison</string>
+    <string name="pieChartName">Attendance Comparison</string>
+    <string name="no_data">No Data Available! </string>
+    <string name="sem_att">Semester Attendance</string>
+    <string name="predictor">Predictor</string>
+    <string name="predict">Predict</string>
+    <string name="future_att">Future Attendance : </string>
+    <string name="p">%</string>
+    <string name="total_hrs">Total Hours</string>
+    <string name="completed_hrs">Hours  Completed</string>
+    <string name="hour">1 Hour</string>
+    <string name="two">2 Hours</string>
+    <string name="completed">Course Completed!!</string>
+    <string name="course_error">Completed Hours cannot be greater than Total Hours!</string>
+    <string name="update_course_failed">Error with updating the course!!</string>
+    <string name="sub_name">Subject Name</string>
+    <string name="sub_total">Total Classes</string>
+    <string name="sub_attend">Classes Attended</string>
+    <string name="sub_criteria">Criteria</string>
+    <!-- Strings For Gender Preference [CHAR LIMIT=30] -->
+    <string name="settings_gender">Gender</string>
+    <string name="settings_gender_key" translatable="false">gender</string>
+    <string name="settings_gender_default" translatable="false">@string/settings_gender_male_value</string>
+
+    <!-- Label for female option [CHAR LIMIT=20] -->
+    <string name="settings_gender_female_label">Female</string>
+    <string name="settings_gender_female_value" translatable="false">female</string>
+
+    <!-- Label for male option [CHAR LIMIT=20] -->
+    <string name="settings_gender_male_label">Male</string>
+    <string name="settings_gender_male_value" translatable="false">male</string>
+
+    <!-- Strings For CriteriaActivity Preference [CHAR LIMIT=30] -->
+    <string name="settings_criteria_label">Criteria</string>
+    <string name="settings_criteria_key" translatable="false">criteria</string>
+    <string name="settings_criteria_default" translatable="false">0</string>
+
+    <!-- Strings For Name Preference [CHAR LIMIT=30] -->
+    <string name="settings_name_label">Username</string>
+    <string name="settings_name_key" translatable="false">username</string>
+    <string name="settings_name_default" translatable="false">Username</string>
+    <string name="no_start">Not yet started</string>
+    <string name="toolbar_criteria">Criteria : </string>
+    <string name="settings">Settings</string>
+    <string name="subject">Subject</string>
+    <string name="colon"> : </string>
+    <string name="backup">Backup</string>
+    <string name="no_backup">No data available for backup!</string>
+    <string name="delete_all_subjects">Delete All Subjects</string>
+    <string name="no_subjects">No Subjects !!\nGet started by clicking on the + button.</string>
+    <string name="delete_all_courses">Delete All Courses</string>
+    <string name="none">none</string>
+    <string name="name_message">Please enter username !</string>
+    <string name="about">About Us</string>
+    <string name="predictor_no_input">Input values missing!</string>
+    <string name="action">Action</string>
+    <string name="predictor_wrong_input">Attended classes cannot be greater than total!</string>
+    <string name="predictor_sem">Semester</string>
+    <string name="att_backup">Attendance Backup</string>
+    <string name="course_empty_small">Get started by clicking on the + button to add courses.</string>
+    <string name="no_courses">No Courses!</string>
+    <string name="course_name">Course Name</string>
+    <string name="total_hours">Total Hours</string>
+    <string name="hours_completed">Hours completed</string>
+    <string name="select_criteria">Select Criteria</string>
+    <string name="next">Next</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="username">Username</string>
+    <string name="or">OR</string>
+    <string name="select_subject">Select Subject</string>
+    <string name="percentage">Percentage</string>
+    <string name="future">Future</string>
+    <string name="enter_classes_to_be_held_in_future">Enter classes to be held in future.</string>
+    <string name="enter_classes_to_be_attended_in_future">Enter classes to be attended in future.</string>
+    <string name="_0">0%</string>
+    <string name="About_Us">Présence is an Android Application with the sole purpose of tracking day-to-day attendance by few clicks. With a simple, user friendly and visually attractive Material Design UI, it is very easy to track and edit attendance daily.</string>
+    <string name="version">Version 1.0</string>
+    <string name="credits">Avatars from www.flaticons.com</string>
+</resources>

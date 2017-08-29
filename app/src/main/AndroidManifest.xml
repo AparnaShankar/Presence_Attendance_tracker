@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="aparna.appy.android.example.com.prsence">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".SplashScreenActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SemAppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".SemesterActivity"
+            android:label="@string/semester"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SemAppTheme">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".CourseActivity"
+            android:label="@string/course"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".SemEditorActivity"
+            android:parentActivityName=".SemesterActivity"
+            android:screenOrientation="portrait">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SemesterActivity" />
+        </activity>
+
+        <activity
+            android:name=".CourseEditorActivity"
+            android:parentActivityName=".CourseActivity"
+            android:screenOrientation="portrait">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CourseActivity" />
+        </activity>
+
+        <activity
+            android:name=".StatisticsActivity"
+            android:label="@string/statistics"
+            android:parentActivityName=".SemesterActivity"
+            android:screenOrientation="portrait">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SemesterActivity" />
+        </activity>
+
+        <activity
+            android:name=".PredictorActivity"
+            android:label="@string/predictor"
+            android:parentActivityName=".SemesterActivity"
+            android:screenOrientation="portrait">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SemesterActivity" />
+        </activity>
+
+        <activity
+            android:name=".SettingsActivity"
+            android:parentActivityName=".SemesterActivity"
+            android:screenOrientation="portrait">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SemesterActivity" />
+        </activity>
+
+        <activity
+            android:name=".NameActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".Gender"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".CriteriaActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".AboutUs"
+            android:label="@string/about"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <provider
+            android:name=".data.AttendanceProvider"
+            android:authorities="aparna.appy.android.example.com.prsence"
+            android:exported="false" />
+
+    </application>
+
+</manifest>

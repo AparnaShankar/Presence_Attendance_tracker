@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    tools:context="aparna.appy.android.example.com.prsence.PredictorActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/fab_margin"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/select_subject"
+            android:text="@string/select_subject" />
+
+        <fr.ganfra.materialspinner.MaterialSpinner
+            android:id="@+id/spinner"
+            style="@style/spinner"
+            app:ms_arrowColor="@color/colorPrimaryDark"
+            app:ms_arrowSize="@dimen/fab_margin"
+            app:ms_enableFloatingLabel="false"
+            app:ms_hintColor="@color/black"
+            app:ms_multiline="true" />
+
+        <TextView
+            style="@style/present_predict"
+            android:text="@string/present" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/p_total"
+                android:text="@string/total" />
+
+            <TextView
+                android:id="@+id/p_total"
+                style="@style/p_total_value"
+                tools:text="132" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen8"
+            android:layout_marginTop="@dimen/dimen8"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/p_atten"
+                android:text="@string/attended" />
+
+            <TextView
+                android:id="@+id/p_attended"
+                style="@style/p_atten_value"
+                tools:text="110" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/p_percent"
+                android:text="@string/percentage" />
+
+            <TextView
+                android:id="@+id/p_percent"
+                style="@style/p_percent_value"
+                tools:text="75.0%" />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/predict_future"
+            android:text="@string/future" />
+
+        <android.support.design.widget.TextInputLayout style="@style/input_predict">
+
+            <EditText
+                android:id="@+id/future_total"
+
+                style="@style/input_predict_num"
+                android:hint="@string/enter_classes_to_be_held_in_future" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout style="@style/input_predict">
+
+            <EditText
+                android:id="@+id/future_attended"
+                style="@style/input_predict_num"
+                android:hint="@string/enter_classes_to_be_attended_in_future" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/predictor"
+            style="@style/predict_button"
+            android:text="@string/predict" />
+
+    </LinearLayout>
+</ScrollView>

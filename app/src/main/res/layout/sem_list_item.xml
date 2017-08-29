@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    style="@style/CardStyle"
+    card_view:cardCornerRadius="@dimen/dimen4"
+    card_view:cardElevation="@dimen/dimen4"
+    card_view:cardUseCompatPadding="true"
+    card_view:contentPadding="@dimen/dimen2">
+
+    <LinearLayout style="@style/Sem_ParentLinearLayout">
+
+        <LinearLayout style="@style/Sem_Part1_LL">
+
+            <TextView
+                android:id="@+id/subject_name"
+                style="@style/Subject_textview" />
+
+            <TextView
+                android:id="@+id/subject_percent"
+                style="@style/subject_percent_tv"
+                android:layout_marginRight="@dimen/dimen8" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/Subject_Part2_LL">
+
+            <TextView
+                style="@style/card_subheading"
+                android:text="@string/attended" />
+
+            <TextView
+                android:id="@+id/subject_attended"
+                style="@style/value" />
+
+            <Button
+                android:id="@+id/attended_button"
+                style="@style/add_button"
+                android:text="@string/present" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/Subject_Part2_LL">
+
+            <TextView
+                style="@style/card_subheading"
+                android:text="@string/total" />
+
+            <TextView
+                android:id="@+id/subject_total"
+                style="@style/value" />
+
+            <Button
+                android:id="@+id/total_button"
+                style="@style/add_button"
+                android:text="@string/absent" />
+
+        </LinearLayout>
+
+        <View style="@style/divider" />
+
+        <TextView
+            android:id="@+id/track"
+            style="@style/track" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

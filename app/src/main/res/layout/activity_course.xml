@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="aparna.appy.android.example.com.prsence.CourseActivity">
+
+    <ListView
+        android:id="@+id/course_list"
+        style="@style/Course_listview" />
+
+    <!-- Empty view for the list -->
+    <RelativeLayout
+        android:id="@+id/course_empty_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/text"
+            style="@style/course_empty_large"
+            android:text="@string/no_courses" />
+
+        <TextView
+            style="@style/course_empty_small"
+            android:text="@string/course_empty_small" />
+
+    </RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/course_fab"
+        style="@style/course_fab"
+        android:src="@drawable/ic_add_white_24dp"
+        app:borderWidth="@dimen/dimen0"
+        app:elevation="@dimen/dimen8" />
+
+</RelativeLayout>
