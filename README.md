@@ -29,9 +29,6 @@ It uses Android SqLite Database and MPAndroidChart library.
 - For Course Tracker, Enter course name and total hours to add the course and update hours completed as per progress
 - You can edit a Subject or a Course by clicking on it
 
-## WORKING
-![](https://user-images.githubusercontent.com/22722348/30638739-08e7d818-9e1a-11e7-9fae-57fb9b56cfe7.gif)
-
 ## SCREENSHOTS
 ![ScreenShot](https://user-images.githubusercontent.com/22722348/30636786-0bf2c83e-9e14-11e7-855c-e657107f67eb.png)
 ![ScreenShot](https://user-images.githubusercontent.com/22722348/30636804-150d7a68-9e14-11e7-95d6-65e343e47ffe.png)
