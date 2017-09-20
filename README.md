@@ -30,3 +30,15 @@ It uses Android SqLite Database and MPAndroidChart library.
 - You can edit a Subject or a Course by clicking on it
 
 ## SCREENSHOTS
+![ScreenShot](https://user-images.githubusercontent.com/22722348/30636786-0bf2c83e-9e14-11e7-855c-e657107f67eb.png)
+![ScreenShot](https://user-images.githubusercontent.com/22722348/30636804-150d7a68-9e14-11e7-95d6-65e343e47ffe.png)
+![ScreenShot](https://user-images.githubusercontent.com/22722348/30636818-1daca540-9e14-11e7-9afc-6c938c6b2830.png)
+![ScreenShot](https://user-images.githubusercontent.com/22722348/30636843-3255f62c-9e14-11e7-91a1-5551dd1b8306.png)
+![ScreenShot](https://user-images.githubusercontent.com/22722348/30636870-494ac34e-9e14-11e7-98f7-cbd7239ac945.png)
+![ScreenShot](https://user-images.githubusercontent.com/22722348/30636880-50a21dc2-9e14-11e7-8769-6bdfc764860a.png)
+![ScreenShot](https://user-images.githubusercontent.com/22722348/30636887-59626c46-9e14-11e7-8c8a-d9855f6d9198.png)
+![ScreenShot](https://user-images.githubusercontent.com/22722348/30636895-607194da-9e14-11e7-9847-b55e9b2dec95.png)
+![ScreenShot](https://user-images.githubusercontent.com/22722348/30637231-5f6f40c2-9e15-11e7-9d18-9e64ac50597b.png)
+![ScreenShot](https://user-images.githubusercontent.com/22722348/30637239-64b52902-9e15-11e7-8945-182295c43e1e.png)
+![ScreenShot](https://user-images.githubusercontent.com/22722348/30637245-68dedcbc-9e15-11e7-96a9-9e02b3ec00a1.png)
+![ScreenShot](https://user-images.githubusercontent.com/22722348/30637250-6f59e82a-9e15-11e7-97d9-b6b7f9743dc8.png)
